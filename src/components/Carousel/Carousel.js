@@ -48,7 +48,10 @@ const Carousel = () => {
           </div>
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
-            <button>seguinos en</button>
+            <div className="container-icons">
+              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <span className="text-icon">SEGUINOS EN</span>
+            </div>
           </div>
         </div>
       </SplideSlide>
@@ -64,7 +67,10 @@ const Carousel = () => {
           </div>
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
-            <button>seguinos en</button>
+            <div className="container-icons">
+              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <span className="text-icon">SEGUINOS EN</span>
+            </div>
           </div>
         </div>
       </SplideSlide>
@@ -80,7 +86,10 @@ const Carousel = () => {
           </div>
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
-            <button>seguinos en</button>
+            <div className="container-icons">
+              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <span className="text-icon">SEGUINOS EN</span>
+            </div>
           </div>
         </div>
       </SplideSlide>
