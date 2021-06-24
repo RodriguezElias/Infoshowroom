@@ -1,7 +1,18 @@
-import React from 'react';
+import './NavBar.css';
+import logo from '../../assets/images/logo_infoshowrooms.svg';
 
-const Navbar = () => {
-  return (  );
+function NavBar() {
+  return (
+    <nav className="NavBar flex justify-between items-center relative">
+      <img alt="logo de la empresa" className="logo" src={logo} />
+      <ul className="LinksNav">
+        <a href="#Sobre_Nosotros" className="Nosotros">Sobre Nosotros</a>
+        <a href="#Showrooms" className="Showrooms">Showrooms</a>
+        <a href="#Asesoramiento" className="Asesoramiento">Asesoramiento</a>
+        <a href="#Contacto" className="Contacto">Contacto</a>
+      </ul>
+    </nav>
+  );
 }
- 
-export default Navbar;
+
+export default NavBar;

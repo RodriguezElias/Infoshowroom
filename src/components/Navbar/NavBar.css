@@ -1,0 +1,87 @@
+.NavBar {
+  top: 0px;
+  left: 0px;
+  max-width: 1920px;
+  max-height: 174px;
+  background: #0A0A0A 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1
+}
+  
+.logo {
+  top: -64px;
+  left: 82px;
+  width: 414px;
+  height: 310px;
+  background: transparent url('../../assets/images/logo_infoshowrooms.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+} 
+
+.LinksNav {
+  font-family: Source Sans Pro;
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.Nosotros {
+  top: 75px;
+  left: 1087px;
+  width: 180px;
+  height: 25px;
+  text-align: left;
+  font: normal 20px;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 18px;
+}
+
+.Showrooms {
+  top: 75px;
+  left: 1312px;
+  width: 130px;
+  height: 25px;
+  text-align: left;
+  font: normal 20px;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 18px;
+}
+
+.Asesoramiento {
+  top: 75px;
+  left: 1487px;
+  width: 166px;
+  height: 25px;
+  text-align: left;
+  font: normal 20px;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 18px;
+}
+
+.Contacto {
+  top: 75px;
+  left: 1698px;
+  width: 104px;
+  height: 25px;
+  text-align: left;
+  font: normal 20px; 
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding: 18px;
+  margin-right: 25px;
+}
+
+/*agregado de fuente*/
+
+@font-face {
+  font-family:sourcesans-semibold;
+  src: url(../../assets/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+}
