@@ -1,0 +1,36 @@
+.container-client{
+  width: 100%;
+  height: 100vh;
+  background-color:#131313;
+  color: #E6E6E6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-client{
+  font-size: 4.7rem;
+  font-family: sourcesans-bold;
+}
+.container-images{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.image-client{
+  width: 165px;
+  height: 165px;
+  border-radius: 92px;
+  border: 1px solid #707070 ;
+
+}
+
+
+/*agregado de fuentes*/
+@font-face {
+  font-family:sourcesans-bold;
+  src: url(../../assets/fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+}
+
+
+  
+
