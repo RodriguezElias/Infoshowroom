@@ -3,7 +3,7 @@ import Image_1 from "../../assets/images/jeans.jpg";
 import Image_2 from "../../assets/images/woman-1.jpg";
 import Image_3 from "../../assets/images/woman-2.jpg";
 import Image_4 from "../../assets/images/woman-3.jpg";
-import Instagram_icon from "../../assets/images/instagram-icon2.png"
+import Instagram_icon from "../../assets/images/instagram-icon2.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "./Carousel.css";
@@ -30,9 +30,17 @@ const Carousel = () => {
           <div className="container-buttons">
             <button className="button-info">MÁS INFO</button>
             <div className="container-icons">
-              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <a
+                href="https://www.instagram.com/infoshowrooms/?hl=es-la"
+              >
+                <img
+                  className="instagram-icon"
+                  src={Instagram_icon}
+                  alt="icon-instagram"
+                />
+              </a>
               <span className="text-icon">SEGUINOS EN</span>
-          </div>
+            </div>
           </div>
         </div>
       </SplideSlide>
@@ -49,7 +57,13 @@ const Carousel = () => {
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
             <div className="container-icons">
-              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <a href="#">
+                <img
+                  className="instagram-icon"
+                  src={Instagram_icon}
+                  alt="icon-instagram"
+                />
+              </a>
               <span className="text-icon">SEGUINOS EN</span>
             </div>
           </div>
@@ -68,7 +82,13 @@ const Carousel = () => {
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
             <div className="container-icons">
-              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <a href="#">
+                <img
+                  className="instagram-icon"
+                  src={Instagram_icon}
+                  alt="icon-instagram"
+                />
+              </a>
               <span className="text-icon">SEGUINOS EN</span>
             </div>
           </div>
@@ -87,7 +107,13 @@ const Carousel = () => {
           <div className="container-buttons">
             <button className="button-info">MAS INFO</button>
             <div className="container-icons">
-              <a href="#"><img className="instagram-icon" src={Instagram_icon} alt="icon-instagram" /></a>
+              <a href="#">
+                <img
+                  className="instagram-icon"
+                  src={Instagram_icon}
+                  alt="icon-instagram"
+                />
+              </a>
               <span className="text-icon">SEGUINOS EN</span>
             </div>
           </div>

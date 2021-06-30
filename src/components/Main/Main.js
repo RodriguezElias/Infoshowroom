@@ -2,6 +2,7 @@ import './Main.css';
 import NavBar from '../NavBar/NavBar';
 import Carousel from '../Carousel/Carousel';
 import Client from '../Client/Client';
+import AboutUs from '../AboutUs/AboutUs';
 
 
 function Main() {
@@ -10,6 +11,7 @@ function Main() {
       <NavBar />
       <Carousel />
       <Client />
+      <AboutUs/>
     </div>
   );
 }

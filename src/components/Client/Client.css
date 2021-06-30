@@ -7,14 +7,20 @@
   flex-direction: column;
   align-items: center;
 }
+.image-divisor{
+  height: 12.813rem;
+  width: 100%;
+}
 .text-client{
   font-size: 4.7rem;
   font-family: sourcesans-bold;
+  margin-top: 3.75rem;
 }
 .container-images{
   width: 60%;
   display: flex;
   justify-content: space-around;
+  margin-top: 6.25rem;
 }
 .image-client{
   width: 165px;

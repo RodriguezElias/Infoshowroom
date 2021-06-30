@@ -1,9 +1,13 @@
 import React from 'react';
 import './Client.css';
+import Divisor from "../../assets/images/divisor.png";
 
 const Client = () => {
   return ( 
     <div className="container-client">
+      <div>
+        <img className="image-divisor" src={Divisor} alt=""/>
+      </div>
       <div className="text-client">
         <h2>CONFÍAN EN NOSOTROS</h2>
       </div>
